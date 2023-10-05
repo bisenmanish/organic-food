@@ -1,0 +1,96 @@
+[{
+
+"banner":"https://www.freepik.com/free-photo/healthy-vegetables-old-dark-background_13013660.htm#page=2&query=fresh%20food&position=9&from_view=search&track=ais",
+"logo":"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/organic-food-logo-design-template-a6555fa7f226417cf106138a0ce83c2b_screen.jpg?ts=1676219912",
+
+"caption":"Organic Products",
+"title":"Fresh Organic",
+"icon2":"bi bi-flower2",
+"icon1":"bi bi-house-door",
+"icon3":"bi bi-gift"
+
+
+},
+{
+
+
+"img":"/images/orange.jpg",
+"quantity":"2 x 454g / 16oz",
+"title": "Orange", 
+"price": "&#8377;150.00"
+
+
+}, 
+{
+
+
+    "img":"/images/pom.jpg",
+    "quantity":"2 x 454g / 16oz",
+    "title": "Pomegranate", 
+    "price": "&#8377;170.00"
+    
+    
+     },
+
+     {
+        "img":"/images/papaya.jpg",
+        "quantity":"2 x 454g / 16oz",
+        "title": "Papaya", 
+        "price": "&#8377;130.00"
+         },
+
+        
+     {
+        "img":"/images/manngo.jpg",
+        "quantity":"2 x 454g / 16oz",
+        "title": "Mango", 
+        "price": "&#8377;110.00" 
+        },
+
+        
+     {
+        "img":"/images/strawnb.jpg",
+        "quantity":"2 x 454g / 16oz",
+        "title": "Straberry", 
+        "price": "&#8377;200.00" 
+        },
+
+        {
+            "img":"/images/red-apple.jpg",
+            "quantity":"2 x 454g / 16oz",
+            "title": "Apple", 
+            "price": "&#8377;160.00" 
+            },
+
+            
+        {
+            "img":"/images/gApple.jpg",
+            "quantity":"2 x 454g / 16oz",
+            "title": "Apple", 
+            "price": "&#8377;190.00" 
+            }, 
+            
+        {
+            "img":"/images/watermelon.jpeg",
+            "quantity":"2 x 454g / 16oz",
+            "title": "Watermelon", 
+            "price": "&#8377;60.00" 
+            },
+            
+        {
+            "img":"/images/graphes.jpeg",
+            "quantity":"2 x 454g / 16oz",
+            "title": "Grapes", 
+            "price": "&#8377;80.00" 
+            },
+
+
+            {
+                "l1":"bi bi-instagram",
+                "l2":"bi bi-whatsapp",
+                "l3":"bi bi-facebook"
+
+            }
+    
+
+]

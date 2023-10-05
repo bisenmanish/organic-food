@@ -1,0 +1,392 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html, body{
+
+    overflow-x: hidden;
+}
+
+
+
+.nav-item a{
+
+    color: black;
+    font-weight: 400;
+    margin-right: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s;
+
+}
+.nav-item a:hover{
+
+    color: rgb(20, 215, 20);
+}
+.search{
+
+    height: 40px;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid rgb(20, 215, 20);
+    background-color: transparent;
+    outline: none;
+    border-right: none ;
+}
+
+.search:focus{
+
+    outline: none;
+}
+.btn1{
+
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(20, 215, 20);
+    
+    transition: all 0.3s;
+    border-left: 0;  
+}
+
+.btn1:hover{
+    background-color: rgb(19, 134, 19);
+    color: white;
+}
+
+
+/* main section  */
+#main{
+
+    background: url("/images/main.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title{
+
+    font-size: 4rem;
+    margin-bottom: -15px;
+
+}
+.caption{
+
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 80px;
+}
+.content{
+
+    font-weight: 500;
+    color: gray;
+}
+.mbtn1{
+
+    height: 50px;
+    width: 25%; 
+    border-radius:50px;
+    background-color: rgb(20, 215, 20);
+    outline: none;
+    border: none;
+    color: white;
+}
+.mbtn1:hover{
+    background-color: rgb(19, 134, 19);
+
+}
+.mbtn2{
+    
+    height: 50px;
+    width: 25%; 
+    border-radius:50px;
+    background-color: transparent;
+    outline: none;
+    border:1px solid rgb(20, 215, 20);
+    color:rgb(20, 215, 20);
+    margin-left: 1rem;
+}
+.mbtn2:hover{
+    color: rgb(19, 134, 19);
+    border: 2px solid rgb(19, 134, 19);
+
+}
+
+.line{
+
+    height: 5px;
+    width: 25%;
+    background-color: rgb(20, 215, 20);
+    display: inline-block;
+}
+#about{
+
+    background: url("/images/abut.jpg");
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.a-title{
+
+    font-size: 2.5rem;
+    margin-bottom: -15px;
+
+}
+.a-caption{
+
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 80px;
+}
+.a-content{
+
+    font-weight: 500;
+    color: gray;
+}
+
+#welcome{
+
+    background-color:rgb(20, 215, 20);
+    
+    
+}
+.w-title{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.w-content{
+
+    color:whitesmoke;
+}
+.line2{
+
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+#welcome i{
+
+color: rgb(19, 134, 19);
+font-size: 30px;
+}
+.card-body{
+
+    cursor: pointer;
+}
+
+.card-text{
+
+    font-size: 1.032rem;
+    color: rgb(76, 76, 76);
+    font-weight: 500;
+    margin:8px 0px;
+}
+.card-content{
+
+    color: rgb(76, 76, 76);
+    font-size: 0.832rem;
+}
+
+
+/* products */
+
+.p-title{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.p-content{
+    color:rgb(75, 75, 75);
+    margin-top: 10px;
+
+}
+
+
+#products .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+.card-body{
+
+    border: 1px dotted rgb(218, 215, 215);
+}
+.star {
+
+    text-align:end;
+    color: orange;
+}
+.card-title{
+
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}
+.card-quantity{
+
+    text-align: left;
+    font-size: 13px;
+    margin: 0;
+    color: rgb(165, 164, 164);
+
+
+}
+
+.card-price{
+    text-align: left;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.btnc{
+    
+     height: 40px;
+     width: 50%; 
+     border-radius:50px;
+     background-color: rgb(20, 215, 20);
+     outline: none;
+     border: none;
+     color: white;
+     margin: 0 auto;
+    display: block;
+
+    
+}
+.btnc:hover{
+
+    border: 2px solid rgb(12, 88, 12);
+    
+    background: transparent;
+    color:rgb(12, 88, 12);
+}
+#offer{
+
+    background: rgb(20, 215, 20);
+    color: white;
+}
+
+#offer h1{
+
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.o-btn{
+
+    height: 40px;
+    width: 50%; 
+    border-radius:50px;
+    background-color:transparent;
+    outline: none;
+    border:2px solid #fff;
+    color: white;
+    margin: 0 auto;
+   display: block;
+   transition: all 0.4s;
+
+}
+.o-btn:hover{
+    
+    border: 2px solid rgb(155, 157, 155);
+    
+    background: transparent;
+    color:rgb(12, 88, 12);
+    outline: 0;
+
+
+}
+
+/* store section */
+.line3{
+
+    height: 6px;
+    width: 30%;
+    background-color:rgb(20, 215, 20);
+    display: inline-block;
+}
+
+#store i{
+
+    font-size: 35px;
+    
+}
+#store .card{
+
+    border:none;
+    outline: 0;
+    cursor: pointer;
+    
+}
+#store .card-body:hover{
+
+    background-color: rgb(20, 215, 20);
+    color: white;
+    transition: all 0.3s;
+}
+.o-title{
+
+font-size: 18px;
+font-weight:500;
+}
+/* contact */
+#contact{
+
+    background: url("/images/cont.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color:white;
+    color:rgb(30, 30, 30);
+    border: 2px solid rgb(12, 88, 12);
+    outline:none;
+    padding: 8px 15px;
+    text-align:center;
+}
+.btn:hover{
+
+    background: rgb(12, 88, 12);
+    border-color: #fff;
+    outline: none;
+}
+
+
+.s1{
+
+    font-size: 32px;
+    display: inline-block;
+    padding:0px 10px;
+     color: rgb(19, 134, 19); 
+    cursor: pointer;
+}
+.s1:hover{
+
+    color: black;
+    border: rgb(12, 88, 12);
+    outline: none;
+    transition: all 0.3s;
+}
+
+.footer p{
+
+    font-size: 18px;
+    color: rgb(131, 130, 130);
+}
+
